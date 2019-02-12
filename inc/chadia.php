@@ -1,6 +1,6 @@
 <header>
 <a href="index.php">
-				<h3> Chadia Bedetse </h3>
+				<h1> Chadia Bedetse </h1>
 				<img src="images/burundi.jpeg" alt="burundians">
 			</a>
 	</header>

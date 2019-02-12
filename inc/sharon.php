@@ -1,6 +1,6 @@
 <header>
 <a href="index.php">
-		<h2>Sharon Ding</h2>
+		<h1>Sharon Ding</h1>
 			<img src="images/mine.jpg" alt='mine'>
 		</a>
 		</header>

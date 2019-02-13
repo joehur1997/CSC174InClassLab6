@@ -1,7 +1,7 @@
 # assignment04
 Combining three individual profiles into one, done in a "flash."  Built in HTML, CSS, JavaScript, and PHP.
 
-## Domain: 3 CSC 174 students
+## Domain: About 3 CSC 174 Students
 
 Ontology
 - each person has an picture
@@ -16,3 +16,13 @@ Ontology
 - Chadia has a section on their Course
 - Chadia has a section on their Extra-Curriculars
 - Chadia has a section on their Hobbies
+
+Taxonomy
+ - Introduction 
+ - Courses
+ - Extra-Curriculars
+ - Hobbies
+ 
+ Choreogrphy
+ - Index page with an introduction to each person
+ - Drop Down menu that separates the courses, extra-curriculars, and hobbies for each person 

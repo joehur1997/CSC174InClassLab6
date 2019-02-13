@@ -17,7 +17,7 @@
 
 </section>
 
-<?php include "inc/sharon.php"; ?>
+<?php include "inc/sharon.inc"; ?>
 
 <section>
 	

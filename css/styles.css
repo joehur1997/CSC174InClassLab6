@@ -1,11 +1,22 @@
 body{
-    font-family: fantasy;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    line-height: 1.5;
+}
+
+p{
+	border-style:inset;
+    border-color: purple;
+	border-width: 5px;
+	padding: 15px 15px 15px 10px;
+
 }
 
 footer{
 	font-weight: bolder;
 	font-family: Georgia, serif;
 	font-size: small;
+	padding:10px;
+
 }
 
 
@@ -35,14 +46,19 @@ header{
 
 
 aside {
+	color: grey;
 	grid-column: 2/4;
 	align-self: end;
 	font-size: small;
-	line-height: 1.0;
+	line-height: 1.5;
+	padding-left: 40px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight:bold;
 }
 
 img {
 	grid-column: 1/2;
+	padding-left: 30px;
 }
 
 main{
@@ -68,10 +84,12 @@ nav ul{
 	display: flex;
 	justify-content: flex-end;
 	list-style-type: none;
+	font-weight:bold;
 }
 
 nav li{
 	margin-left: 20px;
+	color: grey;
 }
 
 nav a{

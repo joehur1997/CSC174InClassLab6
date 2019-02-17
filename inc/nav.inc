@@ -1,26 +1,30 @@
 <nav>
-		<ul>
-			<li><a href="index.php"> The Team </a></li>
-			<li>Maisha
-				<ul>
-					<li><a href="maishacourses.php">Courses</a></li>
-					<li><a href="maishaextra.php">Extra-Curriculars</a></li>
-					<li><a href="maishahobbies.php">Hobbies</a></li>
-				</ul>
+		<ul class="navul">
+			<li class="home"><a href="index.php"> The Team </a></li>
+			<li class="dropdown">
+				<a href="javascript:void(0)" class="droptitle">Maisha</a>
+				<div class="droplist">
+					<a href="maishacourses.php">Courses</a>
+					<a href="maishaextra.php">Extra-Curriculars</a>
+					<a href="maishahobbies.php">Hobbies</a>
+				</div>
 			</li>
-			<li>Sharon
-				<ul>
-					<li><a href="sharoncourses.php">Courses</a></li>
-					<li><a href="sharonextra.php">Extra-Curriculars</a></li>
-					<li><a href="sharonhobbies.php">Hobbies</a></li>
-				</ul>
+			<li class="dropdown">
+				<a href="javascript:void(0)" class="droptitle">Sharon</a>
+				<div class="droplist"> 
+					<a href="sharoncourses.php">Courses</a>
+					<a href="sharonextra.php">Extra-Curriculars</a>
+					<a href="sharonhobbies.php">Hobbies</a>
+				</div>
 			</li>
-			<li>Chadia
-				<ul>
-					<li><a href="chadiacourses.php">Courses</a></li>
-					<li><a href="chadiaextra.php">Extra-Curriculars</a></li>
-					<li><a href="chadiahobbies.php">Hobbies</a></li>
-				</ul>
+			<li class="dropdown">
+			<a href="javascript:void(0)" class="droptitle">Chadia</a>
+				<div class="droplist">
+					<a href="chadiacourses.php">Courses</a>
+					<a href="chadiaextra.php">Extra-Curriculars</a>
+					<a href="chadiahobbies.php">Hobbies</a>
+				</div>
 			</li>
 		</ul>
 </nav>
+

@@ -1,16 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald');
+
 body{
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     line-height: 1.5;
-    background-color: #E6E6FA;
+    background-color: rgb(233, 185, 207);
 }
 
-p{
-	border-style:inset;
-    border-color:purple;
-	border-width: 5px;
-	padding: 15px 15px 15px 10px;
-
+.courses {
+	border: solid 3px purple;
+  border-radius: 28px;
+	padding: 20px 20px 20px 20px;
+	background-color: rgb(240, 208, 223);
+	margin-top: 12px;
+	margin-bottom: 12px;
+	font-family: 'Oswald';
 }
+
+.courses h2 {
+	margin: 0px 0px 0px 0px;
+	border-bottom: solid 1.5px black;
+	font-size: 28px;
+}
+
+.courses p {
+	line-height: 1.75em;
+	font-size: 18px;
+}
+
+.navul {
+  list-style-type: none;
+  margin: 0 0 0 196px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: inline-block;
+  list-style-type: none;
+  justify-content: center;
+  list-style-type: none;
+  font-weight:bold;
+	background-size: auto;
+	font-size: 18px;
+	font-family: "Open Sans Condensed";
+}
+
+header{
+	grid-column: 1/2;
+	margin-left: 24px;
+	margin-top: -16px;
+	border-bottom: groove 2px violet;
+}
+
+header h1{
+	transform: rotate(-90deg);
+	position: absolute;
+	z-index: 100;
+	top:42px;
+	left:-112px;
+	font-size: 48px;
+	color: black;
+	font-family: 'Oswald';
+}
+
+aside {
+	color: black;
+	grid-column: 2/4;
+	align-self:end;
+	font-size: 24px;
+	line-height: 1.5;
+	padding-left: 60px;
+	font-family: 'Open Sans Condensed';
+	font-weight:bold;
+	padding-bottom: 16px;
+	border-bottom: groove 2px violet;
+	border-top: groove 2px violet;
+}
+
 
 footer{
 	font-weight: bolder;
@@ -36,21 +99,6 @@ footer{
 
 }
 
-header{
-	grid-column: 1/2;
-}
-
-
-aside {
-	color: black;
-	grid-column: 2/4;
-	align-self:end;
-	font-size: 15px;
-	line-height: 1.5;
-	padding-left: 40px;
-	font-family: "Comic Sans MS", sans-serif;
-	font-weight:bold;
-}
 
 img {
 	grid-column: 1/2;
@@ -59,45 +107,24 @@ img {
 	padding-top: 20px;
 }
 
-main{
+main {
 	grid-column: 1/4;
 }
 
-footer{
+footer {
 	grid-column: 1/2;
 }
 
-nav{
+nav {
 	grid-column: 2/4;
 }
 
-section{
+section {
 	display: block;
 	grid-column: 1/4;
 }
 
-
-
-/*nav ul{
-	display: flex;
-	justify-content: flex-end;
-	list-style-type: none;
-	font-weight:bold;
-}
-
-nav li{
-	margin-left: 20px;
-	color: #778899;
-	position:relative;
-	display:inline;
-}
-
-nav a{
-	text-decoration: none;
-}*/
-
-
-aside ul{
+aside ul {
 	list-style-type: none;
 	font-style: italic;
 	margin-bottom: 5px;
@@ -117,15 +144,6 @@ header a{
 	position: relative;
 }
 
-header h1{
-	transform: rotate(-90deg);
-	position: absolute;
-	z-index: 100;
-	top:87px;
-	left:-81px;
-	font-size: 27px;
-	color: black;
-}
 
 header h2{
 	transform: rotate(-90deg);
@@ -145,27 +163,6 @@ header h3{
 	left:-106px;
 	font-size: 27px;
 	color: black;
-}
-
-h2{
-	padding-left:30px;
-	color: 	purple;
-	font-family: "Lobster", serif;
-	font-size:25px;
-}
-
-.navul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  display: inline-block;
-  list-style-type: none;
-  justify-content: center;
-  list-style-type: none;
-  font-weight:bold;
-  background-size: auto;
 }
 
 li {

@@ -1,4 +1,4 @@
-<header>
+	<header>
 			<a href="index.php">
 				<h1>Maisha Idris</h1>
 				<img src="images/dummy.jpg" alt="Picture of me">
